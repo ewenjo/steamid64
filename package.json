@@ -1,0 +1,19 @@
+{
+  "name": "Steam-ID",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "<ewenjo@ewenjo.pro>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0",
+    "passport": "^0.4.1",
+    "passport-steam": "^1.0.12"
+  }
+}
