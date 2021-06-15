@@ -19,5 +19,8 @@
     "nunjucks": "^3.2.3",
     "passport": "^0.4.1",
     "passport-steam": "^1.0.15"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.1"
   }
 }

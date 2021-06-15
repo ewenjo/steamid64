@@ -24,7 +24,7 @@ app.set('view engine', 'njk');
 nunjucks.configure(path.resolve(__dirname, 'views'), {
   autoescape: true,
   express: app,
-  watch: true
+  watch: process.env.NODE_ENV !== 'production'
 });
 
 app.get('/', (_req, res) => res.render('login'));
