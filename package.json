@@ -1,23 +1,23 @@
 {
-  "name": "Steam-ID",
+  "name": "steam-id",
   "version": "1.0.0",
-  "description": "Fastest way to get your Steam ID64",
+  "description": "Fastest way to get your SteamID64",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/ewenjo/steamid64.git"
   },
-  "author": "ewenjo <ewenjo@ewenjo.pro> (https://ewenjo.pro)",
+  "author": "ewenjo <ewenjo@ewenjo.dev> (https://ewenjo.dev)",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "nunjucks": "^3.2.0",
+    "nunjucks": "^3.2.3",
     "passport": "^0.4.1",
-    "passport-steam": "^1.0.12"
+    "passport-steam": "^1.0.15"
   }
 }
